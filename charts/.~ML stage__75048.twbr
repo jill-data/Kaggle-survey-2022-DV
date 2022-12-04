@@ -1,0 +1,2655 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20223.22.1108.0821                               -->
+<workbook original-version='18.1' source-build='2022.3.1 (20223.22.1108.0821)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='cleaned_kaggle2022' inline='true' name='federated.0xgs425076ib6y1bwu1ve1y0cxo5' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='cleaned_kaggle2022' name='textscan.1een3lp1nyl65716ix7uq1r7ngw6'>
+            <connection class='textscan' directory='/Users/linh/Documents/GitHub/Kaggle-survey-2022-DV/data' filename='cleaned_kaggle2022.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1een3lp1nyl65716ix7uq1r7ngw6' name='cleaned_kaggle2022.csv' table='[cleaned_kaggle2022#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='string' name='age' ordinal='0' />
+            <column datatype='string' name='gender' ordinal='1' />
+            <column datatype='string' name='country' ordinal='2' />
+            <column datatype='string' name='education_level' ordinal='3' />
+            <column datatype='string' name='published' ordinal='4' />
+            <column datatype='string' name='ml_used_theoretical' ordinal='5' />
+            <column datatype='string' name='ml_used_applied' ordinal='6' />
+            <column datatype='string' name='ml_used_no' ordinal='7' />
+            <column datatype='string' name='code_exp' ordinal='8' />
+            <column datatype='string' name='program_lang_Python' ordinal='9' />
+            <column datatype='string' name='program_lang_R' ordinal='10' />
+            <column datatype='string' name='program_lang_SQL' ordinal='11' />
+            <column datatype='string' name='program_lang_C' ordinal='12' />
+            <column datatype='string' name='program_lang_C#' ordinal='13' />
+            <column datatype='string' name='program_lang_C++' ordinal='14' />
+            <column datatype='string' name='program_lang_Java' ordinal='15' />
+            <column datatype='string' name='program_lang_Javascript' ordinal='16' />
+            <column datatype='string' name='program_lang_Bash' ordinal='17' />
+            <column datatype='string' name='program_lang_PHP' ordinal='18' />
+            <column datatype='string' name='program_lang_MATLAB' ordinal='19' />
+            <column datatype='string' name='program_lang_Julia' ordinal='20' />
+            <column datatype='string' name='program_lang_Go' ordinal='21' />
+            <column datatype='string' name='program_lang_None' ordinal='22' />
+            <column datatype='string' name='program_lang_Other' ordinal='23' />
+            <column datatype='string' name='ml_exp' ordinal='24' />
+            <column datatype='string' name='ml_algo_Linear or Logistic Regression' ordinal='25' />
+            <column datatype='string' name='ml_algo_Decision Trees or Random Forests' ordinal='26' />
+            <column datatype='string' name='ml_algo_Gradient Boosting Machines (xgboost, lightgbm, etc)' ordinal='27' />
+            <column datatype='string' name='ml_algo_Bayesian Approaches' ordinal='28' />
+            <column datatype='string' name='ml_algo_Evolutionary Approaches' ordinal='29' />
+            <column datatype='string' name='ml_algo_Dense Neural Networks (MLPs, etc)' ordinal='30' />
+            <column datatype='string' name='ml_algo_Convolutional Neural Networks' ordinal='31' />
+            <column datatype='string' name='ml_algo_Generative Adversarial Networks' ordinal='32' />
+            <column datatype='string' name='ml_algo_Recurrent Neural Networks' ordinal='33' />
+            <column datatype='string' name='ml_algo_Transformer Networks (BERT, gpt, etc)' ordinal='34' />
+            <column datatype='string' name='ml_algo_Autoencoder Networks (DAE, VAE, etc)' ordinal='35' />
+            <column datatype='string' name='ml_algo_Graph Neural Networks' ordinal='36' />
+            <column datatype='string' name='ml_algo_None' ordinal='37' />
+            <column datatype='string' name='ml_algo_Other' ordinal='38' />
+            <column datatype='string' name='title' ordinal='39' />
+            <column datatype='string' name='industry' ordinal='40' />
+            <column datatype='string' name='company_size' ordinal='41' />
+            <column datatype='string' name='data_team_size' ordinal='42' />
+            <column datatype='string' name='company_stage' ordinal='43' />
+            <column datatype='string' name='task_ Analyze and understand data to influence product or business decisions' ordinal='44' />
+            <column datatype='string' name='task_ Build and/or run the data infrastructure that my business uses for storing, analyzing, and operationalizing data' ordinal='45' />
+            <column datatype='string' name='task_ Build prototypes to explore applying machine learning to new areas' ordinal='46' />
+            <column datatype='string' name='task_ Build and/or run a machine learning service that operationally improves my product or workflows' ordinal='47' />
+            <column datatype='string' name='task_ Experimentation and iteration to improve existing ML models' ordinal='48' />
+            <column datatype='string' name='task_ Do research that advances the state of the art of machine learning' ordinal='49' />
+            <column datatype='string' name='task_ None of these activities are an important part of my role at work' ordinal='50' />
+            <column datatype='string' name='task_ Other' ordinal='51' />
+            <column datatype='string' name='yearly_compensation' ordinal='52' />
+            <column datatype='string' name='cloud_platform_AmazonWebServices(AWS)' ordinal='53' />
+            <column datatype='string' name='cloud_platform_MicrosoftAzure' ordinal='54' />
+            <column datatype='string' name='cloud_platform_GoogleCloudPlatform(GCP)' ordinal='55' />
+            <column datatype='string' name='cloud_platform_IBMCloud/RedHat' ordinal='56' />
+            <column datatype='string' name='cloud_platform_OracleCloud' ordinal='57' />
+            <column datatype='string' name='cloud_platform_SAPCloud' ordinal='58' />
+            <column datatype='string' name='cloud_platform_VMwareCloud' ordinal='59' />
+            <column datatype='string' name='cloud_platform_AlibabaCloud' ordinal='60' />
+            <column datatype='string' name='cloud_platform_TencentCloud' ordinal='61' />
+            <column datatype='string' name='cloud_platform_HuaweiCloud' ordinal='62' />
+            <column datatype='string' name='cloud_platform_None' ordinal='63' />
+            <column datatype='string' name='cloud_platform_Other' ordinal='64' />
+            <column datatype='real' name='stage_index' ordinal='65' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1een3lp1nyl65716ix7uq1r7ngw6' name='cleaned_kaggle2022.csv' table='[cleaned_kaggle2022#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='string' name='age' ordinal='0' />
+            <column datatype='string' name='gender' ordinal='1' />
+            <column datatype='string' name='country' ordinal='2' />
+            <column datatype='string' name='education_level' ordinal='3' />
+            <column datatype='string' name='published' ordinal='4' />
+            <column datatype='string' name='ml_used_theoretical' ordinal='5' />
+            <column datatype='string' name='ml_used_applied' ordinal='6' />
+            <column datatype='string' name='ml_used_no' ordinal='7' />
+            <column datatype='string' name='code_exp' ordinal='8' />
+            <column datatype='string' name='program_lang_Python' ordinal='9' />
+            <column datatype='string' name='program_lang_R' ordinal='10' />
+            <column datatype='string' name='program_lang_SQL' ordinal='11' />
+            <column datatype='string' name='program_lang_C' ordinal='12' />
+            <column datatype='string' name='program_lang_C#' ordinal='13' />
+            <column datatype='string' name='program_lang_C++' ordinal='14' />
+            <column datatype='string' name='program_lang_Java' ordinal='15' />
+            <column datatype='string' name='program_lang_Javascript' ordinal='16' />
+            <column datatype='string' name='program_lang_Bash' ordinal='17' />
+            <column datatype='string' name='program_lang_PHP' ordinal='18' />
+            <column datatype='string' name='program_lang_MATLAB' ordinal='19' />
+            <column datatype='string' name='program_lang_Julia' ordinal='20' />
+            <column datatype='string' name='program_lang_Go' ordinal='21' />
+            <column datatype='string' name='program_lang_None' ordinal='22' />
+            <column datatype='string' name='program_lang_Other' ordinal='23' />
+            <column datatype='string' name='ml_exp' ordinal='24' />
+            <column datatype='string' name='ml_algo_Linear or Logistic Regression' ordinal='25' />
+            <column datatype='string' name='ml_algo_Decision Trees or Random Forests' ordinal='26' />
+            <column datatype='string' name='ml_algo_Gradient Boosting Machines (xgboost, lightgbm, etc)' ordinal='27' />
+            <column datatype='string' name='ml_algo_Bayesian Approaches' ordinal='28' />
+            <column datatype='string' name='ml_algo_Evolutionary Approaches' ordinal='29' />
+            <column datatype='string' name='ml_algo_Dense Neural Networks (MLPs, etc)' ordinal='30' />
+            <column datatype='string' name='ml_algo_Convolutional Neural Networks' ordinal='31' />
+            <column datatype='string' name='ml_algo_Generative Adversarial Networks' ordinal='32' />
+            <column datatype='string' name='ml_algo_Recurrent Neural Networks' ordinal='33' />
+            <column datatype='string' name='ml_algo_Transformer Networks (BERT, gpt, etc)' ordinal='34' />
+            <column datatype='string' name='ml_algo_Autoencoder Networks (DAE, VAE, etc)' ordinal='35' />
+            <column datatype='string' name='ml_algo_Graph Neural Networks' ordinal='36' />
+            <column datatype='string' name='ml_algo_None' ordinal='37' />
+            <column datatype='string' name='ml_algo_Other' ordinal='38' />
+            <column datatype='string' name='title' ordinal='39' />
+            <column datatype='string' name='industry' ordinal='40' />
+            <column datatype='string' name='company_size' ordinal='41' />
+            <column datatype='string' name='data_team_size' ordinal='42' />
+            <column datatype='string' name='company_stage' ordinal='43' />
+            <column datatype='string' name='task_ Analyze and understand data to influence product or business decisions' ordinal='44' />
+            <column datatype='string' name='task_ Build and/or run the data infrastructure that my business uses for storing, analyzing, and operationalizing data' ordinal='45' />
+            <column datatype='string' name='task_ Build prototypes to explore applying machine learning to new areas' ordinal='46' />
+            <column datatype='string' name='task_ Build and/or run a machine learning service that operationally improves my product or workflows' ordinal='47' />
+            <column datatype='string' name='task_ Experimentation and iteration to improve existing ML models' ordinal='48' />
+            <column datatype='string' name='task_ Do research that advances the state of the art of machine learning' ordinal='49' />
+            <column datatype='string' name='task_ None of these activities are an important part of my role at work' ordinal='50' />
+            <column datatype='string' name='task_ Other' ordinal='51' />
+            <column datatype='string' name='yearly_compensation' ordinal='52' />
+            <column datatype='string' name='cloud_platform_AmazonWebServices(AWS)' ordinal='53' />
+            <column datatype='string' name='cloud_platform_MicrosoftAzure' ordinal='54' />
+            <column datatype='string' name='cloud_platform_GoogleCloudPlatform(GCP)' ordinal='55' />
+            <column datatype='string' name='cloud_platform_IBMCloud/RedHat' ordinal='56' />
+            <column datatype='string' name='cloud_platform_OracleCloud' ordinal='57' />
+            <column datatype='string' name='cloud_platform_SAPCloud' ordinal='58' />
+            <column datatype='string' name='cloud_platform_VMwareCloud' ordinal='59' />
+            <column datatype='string' name='cloud_platform_AlibabaCloud' ordinal='60' />
+            <column datatype='string' name='cloud_platform_TencentCloud' ordinal='61' />
+            <column datatype='string' name='cloud_platform_HuaweiCloud' ordinal='62' />
+            <column datatype='string' name='cloud_platform_None' ordinal='63' />
+            <column datatype='string' name='cloud_platform_Other' ordinal='64' />
+            <column datatype='real' name='stage_index' ordinal='65' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[age]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>age</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gender</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[gender]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>gender</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[country]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>country</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>education_level</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[education_level]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>education_level</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>published</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[published]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>published</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ml_used_theoretical</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ml_used_theoretical]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>ml_used_theoretical</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ml_used_applied</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ml_used_applied]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>ml_used_applied</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ml_used_no</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ml_used_no]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>ml_used_no</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>code_exp</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[code_exp]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>code_exp</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>program_lang_Python</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[program_lang_Python]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>program_lang_Python</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>program_lang_R</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[program_lang_R]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>program_lang_R</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>program_lang_SQL</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[program_lang_SQL]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>program_lang_SQL</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>program_lang_C</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[program_lang_C]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>program_lang_C</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>program_lang_C#</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[program_lang_C#]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>program_lang_C#</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>program_lang_C++</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[program_lang_C++]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>program_lang_C++</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>program_lang_Java</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[program_lang_Java]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>program_lang_Java</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>program_lang_Javascript</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[program_lang_Javascript]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>program_lang_Javascript</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>program_lang_Bash</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[program_lang_Bash]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>program_lang_Bash</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>program_lang_PHP</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[program_lang_PHP]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>program_lang_PHP</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>program_lang_MATLAB</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[program_lang_MATLAB]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>program_lang_MATLAB</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>program_lang_Julia</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[program_lang_Julia]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>program_lang_Julia</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>program_lang_Go</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[program_lang_Go]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>program_lang_Go</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>program_lang_None</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[program_lang_None]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>program_lang_None</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>program_lang_Other</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[program_lang_Other]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>program_lang_Other</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ml_exp</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ml_exp]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>ml_exp</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ml_algo_Linear or Logistic Regression</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ml_algo_Linear or Logistic Regression]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>ml_algo_Linear or Logistic Regression</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ml_algo_Decision Trees or Random Forests</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ml_algo_Decision Trees or Random Forests]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>ml_algo_Decision Trees or Random Forests</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ml_algo_Gradient Boosting Machines (xgboost, lightgbm, etc)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ml_algo_Gradient Boosting Machines (xgboost, lightgbm, etc)]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>ml_algo_Gradient Boosting Machines (xgboost, lightgbm, etc)</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ml_algo_Bayesian Approaches</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ml_algo_Bayesian Approaches]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>ml_algo_Bayesian Approaches</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ml_algo_Evolutionary Approaches</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ml_algo_Evolutionary Approaches]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>ml_algo_Evolutionary Approaches</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ml_algo_Dense Neural Networks (MLPs, etc)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ml_algo_Dense Neural Networks (MLPs, etc)]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>ml_algo_Dense Neural Networks (MLPs, etc)</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ml_algo_Convolutional Neural Networks</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ml_algo_Convolutional Neural Networks]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>ml_algo_Convolutional Neural Networks</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ml_algo_Generative Adversarial Networks</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ml_algo_Generative Adversarial Networks]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>ml_algo_Generative Adversarial Networks</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ml_algo_Recurrent Neural Networks</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ml_algo_Recurrent Neural Networks]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>ml_algo_Recurrent Neural Networks</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ml_algo_Transformer Networks (BERT, gpt, etc)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ml_algo_Transformer Networks (BERT, gpt, etc)]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>ml_algo_Transformer Networks (BERT, gpt, etc)</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ml_algo_Autoencoder Networks (DAE, VAE, etc)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ml_algo_Autoencoder Networks (DAE, VAE, etc)]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>ml_algo_Autoencoder Networks (DAE, VAE, etc)</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ml_algo_Graph Neural Networks</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ml_algo_Graph Neural Networks]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>ml_algo_Graph Neural Networks</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ml_algo_None</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ml_algo_None]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>ml_algo_None</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ml_algo_Other</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ml_algo_Other]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>ml_algo_Other</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>title</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[title]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>title</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>industry</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[industry]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>industry</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>company_size</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[company_size]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>company_size</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>data_team_size</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[data_team_size]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>data_team_size</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>company_stage</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[company_stage]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>company_stage</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>task_ Analyze and understand data to influence product or business decisions</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[task_ Analyze and understand data to influence product or business decisions]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>task_ Analyze and understand data to influence product or business decisions</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>task_ Build and/or run the data infrastructure that my business uses for storing, analyzing, and operationalizing data</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[task_ Build and/or run the data infrastructure that my business uses for storing, analyzing, and operationalizing data]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>task_ Build and/or run the data infrastructure that my business uses for storing, analyzing, and operationalizing data</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>task_ Build prototypes to explore applying machine learning to new areas</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[task_ Build prototypes to explore applying machine learning to new areas]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>task_ Build prototypes to explore applying machine learning to new areas</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>task_ Build and/or run a machine learning service that operationally improves my product or workflows</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[task_ Build and/or run a machine learning service that operationally improves my product or workflows]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>task_ Build and/or run a machine learning service that operationally improves my product or workflows</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>task_ Experimentation and iteration to improve existing ML models</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[task_ Experimentation and iteration to improve existing ML models]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>task_ Experimentation and iteration to improve existing ML models</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>task_ Do research that advances the state of the art of machine learning</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[task_ Do research that advances the state of the art of machine learning]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>task_ Do research that advances the state of the art of machine learning</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>task_ None of these activities are an important part of my role at work</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[task_ None of these activities are an important part of my role at work]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>task_ None of these activities are an important part of my role at work</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>task_ Other</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[task_ Other]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>task_ Other</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>yearly_compensation</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[yearly_compensation]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>yearly_compensation</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cloud_platform_AmazonWebServices(AWS)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[cloud_platform_AmazonWebServices(AWS)]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>cloud_platform_AmazonWebServices(AWS)</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cloud_platform_MicrosoftAzure</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[cloud_platform_MicrosoftAzure]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>cloud_platform_MicrosoftAzure</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cloud_platform_GoogleCloudPlatform(GCP)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[cloud_platform_GoogleCloudPlatform(GCP)]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>cloud_platform_GoogleCloudPlatform(GCP)</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cloud_platform_IBMCloud/RedHat</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[cloud_platform_IBMCloud/RedHat]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>cloud_platform_IBMCloud/RedHat</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cloud_platform_OracleCloud</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[cloud_platform_OracleCloud]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>cloud_platform_OracleCloud</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cloud_platform_SAPCloud</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[cloud_platform_SAPCloud]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>cloud_platform_SAPCloud</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cloud_platform_VMwareCloud</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[cloud_platform_VMwareCloud]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>cloud_platform_VMwareCloud</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cloud_platform_AlibabaCloud</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[cloud_platform_AlibabaCloud]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>cloud_platform_AlibabaCloud</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cloud_platform_TencentCloud</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[cloud_platform_TencentCloud]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>cloud_platform_TencentCloud</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cloud_platform_HuaweiCloud</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[cloud_platform_HuaweiCloud]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>cloud_platform_HuaweiCloud</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cloud_platform_None</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[cloud_platform_None]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>cloud_platform_None</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cloud_platform_Other</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[cloud_platform_Other]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>cloud_platform_Other</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stage_index</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[stage_index]</local-name>
+            <parent-name>[cleaned_kaggle2022.csv]</parent-name>
+            <remote-alias>stage_index</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='cleaned_kaggle2022.csv' datatype='table' name='[__tableau_internal_object_id__].[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]' role='measure' type='quantitative' />
+      <column caption='Age' datatype='string' name='[age]' role='dimension' type='nominal' />
+      <column caption='cloud platform AlibabaCloud' datatype='string' name='[cloud_platform_AlibabaCloud]' role='dimension' type='nominal' />
+      <column caption='cloud platform AmazonWebServices(AWS)' datatype='string' name='[cloud_platform_AmazonWebServices(AWS)]' role='dimension' type='nominal' />
+      <column caption='cloud platform GoogleCloudPlatform(GCP)' datatype='string' name='[cloud_platform_GoogleCloudPlatform(GCP)]' role='dimension' type='nominal' />
+      <column caption='cloud platform HuaweiCloud' datatype='string' name='[cloud_platform_HuaweiCloud]' role='dimension' type='nominal' />
+      <column caption='cloud platform IBMCloud/RedHat' datatype='string' name='[cloud_platform_IBMCloud/RedHat]' role='dimension' type='nominal' />
+      <column caption='cloud platform MicrosoftAzure' datatype='string' name='[cloud_platform_MicrosoftAzure]' role='dimension' type='nominal' />
+      <column caption='cloud platform None' datatype='string' name='[cloud_platform_None]' role='dimension' type='nominal' />
+      <column caption='cloud platform OracleCloud' datatype='string' name='[cloud_platform_OracleCloud]' role='dimension' type='nominal' />
+      <column caption='cloud platform Other' datatype='string' name='[cloud_platform_Other]' role='dimension' type='nominal' />
+      <column caption='cloud platform SAPCloud' datatype='string' name='[cloud_platform_SAPCloud]' role='dimension' type='nominal' />
+      <column caption='cloud platform TencentCloud' datatype='string' name='[cloud_platform_TencentCloud]' role='dimension' type='nominal' />
+      <column caption='cloud platform VMwareCloud' datatype='string' name='[cloud_platform_VMwareCloud]' role='dimension' type='nominal' />
+      <column caption='Code Exp' datatype='string' name='[code_exp]' role='dimension' type='nominal' />
+      <column caption='Company Size' datatype='string' name='[company_size]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;0-49 employees&quot;' value='0-49' />
+          <alias key='&quot;10,000 or more employees&quot;' value='&gt; 10,000' />
+          <alias key='&quot;1000-9,999 employees&quot;' value='1000-9,999' />
+          <alias key='&quot;250-999 employees&quot;' value='250-999' />
+          <alias key='&quot;50-249 employees&quot;' value='50-249' />
+        </aliases>
+      </column>
+      <column caption='ML Stage' datatype='string' name='[company_stage]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;No (we do not use ML methods)&quot;' value='No' />
+          <alias key='&quot;We are exploring ML methods (and may one day put a model into production)&quot;' value='Exploring' />
+          <alias key='&quot;We have well established ML methods (i.e., models in production for more than 2 years)&quot;' value='Establishing &gt; 2 years' />
+          <alias key='&quot;We recently started using ML methods (i.e., models in production for less than 2 years)&quot;' value='Adopting &lt; 2 years' />
+          <alias key='&quot;We use ML methods for generating insights (but do not put working models into production)&quot;' value='Generating' />
+        </aliases>
+      </column>
+      <column caption='Country' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Data Team Size' datatype='string' name='[data_team_size]' role='dimension' type='nominal' />
+      <column caption='Education Level' datatype='string' name='[education_level]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;Some college/university study without earning a bachelor’s degree&quot;' value='Some college/university study' />
+        </aliases>
+      </column>
+      <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
+      <column caption='Industry' datatype='string' name='[industry]' role='dimension' type='nominal' />
+      <column caption='ml algo Autoencoder Networks (DAE, VAE, etc)' datatype='string' name='[ml_algo_Autoencoder Networks (DAE, VAE, etc)]' role='dimension' type='nominal' />
+      <column caption='ml algo Bayesian Approaches' datatype='string' name='[ml_algo_Bayesian Approaches]' role='dimension' type='nominal' />
+      <column caption='ml algo Convolutional Neural Networks' datatype='string' name='[ml_algo_Convolutional Neural Networks]' role='dimension' type='nominal' />
+      <column caption='ml algo Decision Trees or Random Forests' datatype='string' name='[ml_algo_Decision Trees or Random Forests]' role='dimension' type='nominal' />
+      <column caption='ml algo Dense Neural Networks (MLPs, etc)' datatype='string' name='[ml_algo_Dense Neural Networks (MLPs, etc)]' role='dimension' type='nominal' />
+      <column caption='ml algo Evolutionary Approaches' datatype='string' name='[ml_algo_Evolutionary Approaches]' role='dimension' type='nominal' />
+      <column caption='ml algo Generative Adversarial Networks' datatype='string' name='[ml_algo_Generative Adversarial Networks]' role='dimension' type='nominal' />
+      <column caption='ml algo Gradient Boosting Machines (xgboost, lightgbm, etc)' datatype='string' name='[ml_algo_Gradient Boosting Machines (xgboost, lightgbm, etc)]' role='dimension' type='nominal' />
+      <column caption='ml algo Graph Neural Networks' datatype='string' name='[ml_algo_Graph Neural Networks]' role='dimension' type='nominal' />
+      <column caption='ml algo Linear or Logistic Regression' datatype='string' name='[ml_algo_Linear or Logistic Regression]' role='dimension' type='nominal' />
+      <column caption='ml algo None' datatype='string' name='[ml_algo_None]' role='dimension' type='nominal' />
+      <column caption='ml algo Other' datatype='string' name='[ml_algo_Other]' role='dimension' type='nominal' />
+      <column caption='ml algo Recurrent Neural Networks' datatype='string' name='[ml_algo_Recurrent Neural Networks]' role='dimension' type='nominal' />
+      <column caption='ml algo Transformer Networks (BERT, gpt, etc)' datatype='string' name='[ml_algo_Transformer Networks (BERT, gpt, etc)]' role='dimension' type='nominal' />
+      <column caption='Ml Exp' datatype='string' name='[ml_exp]' role='dimension' type='nominal' />
+      <column caption='Ml Used Applied' datatype='string' name='[ml_used_applied]' role='dimension' type='nominal' />
+      <column caption='Ml Used No' datatype='string' name='[ml_used_no]' role='dimension' type='nominal' />
+      <column caption='Ml Used Theoretical' datatype='string' name='[ml_used_theoretical]' role='dimension' type='nominal' />
+      <column caption='program lang Bash' datatype='string' name='[program_lang_Bash]' role='dimension' type='nominal' />
+      <column caption='program lang C#' datatype='string' name='[program_lang_C#]' role='dimension' type='nominal' />
+      <column caption='program lang C++' datatype='string' name='[program_lang_C++]' role='dimension' type='nominal' />
+      <column caption='program lang C' datatype='string' name='[program_lang_C]' role='dimension' type='nominal' />
+      <column caption='program lang Go' datatype='string' name='[program_lang_Go]' role='dimension' type='nominal' />
+      <column caption='program lang Java' datatype='string' name='[program_lang_Java]' role='dimension' type='nominal' />
+      <column caption='program lang Javascript' datatype='string' name='[program_lang_Javascript]' role='dimension' type='nominal' />
+      <column caption='program lang Julia' datatype='string' name='[program_lang_Julia]' role='dimension' type='nominal' />
+      <column caption='program lang MATLAB' datatype='string' name='[program_lang_MATLAB]' role='dimension' type='nominal' />
+      <column caption='program lang None' datatype='string' name='[program_lang_None]' role='dimension' type='nominal' />
+      <column caption='program lang Other' datatype='string' name='[program_lang_Other]' role='dimension' type='nominal' />
+      <column caption='program lang PHP' datatype='string' name='[program_lang_PHP]' role='dimension' type='nominal' />
+      <column caption='program lang Python' datatype='string' name='[program_lang_Python]' role='dimension' type='nominal' />
+      <column caption='program lang R' datatype='string' name='[program_lang_R]' role='dimension' type='nominal' />
+      <column caption='program lang SQL' datatype='string' name='[program_lang_SQL]' role='dimension' type='nominal' />
+      <column caption='Published' datatype='string' name='[published]' role='dimension' type='nominal' />
+      <column aggregation='None' datatype='integer' name='[stage_index (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='-1' formula='[stage_index]' peg='0' size='0.931' />
+      </column>
+      <column datatype='real' name='[stage_index]' role='measure' type='quantitative' />
+      <column caption='task  Analyze and understand data to influence product or business decisions' datatype='string' name='[task_ Analyze and understand data to influence product or business decisions]' role='dimension' type='nominal' />
+      <column caption='task  Build and/or run a machine learning service that operationally improves my product or workflows' datatype='string' name='[task_ Build and/or run a machine learning service that operationally improves my product or workflows]' role='dimension' type='nominal' />
+      <column caption='task  Build and/or run the data infrastructure that my business uses for storing, analyzing, and operationalizing data' datatype='string' name='[task_ Build and/or run the data infrastructure that my business uses for storing, analyzing, and operationalizing data]' role='dimension' type='nominal' />
+      <column caption='task  Build prototypes to explore applying machine learning to new areas' datatype='string' name='[task_ Build prototypes to explore applying machine learning to new areas]' role='dimension' type='nominal' />
+      <column caption='task  Do research that advances the state of the art of machine learning' datatype='string' name='[task_ Do research that advances the state of the art of machine learning]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='task  Experimentation and iteration to improve existing ML models' datatype='string' name='[task_ Experimentation and iteration to improve existing ML models]' role='dimension' type='nominal' />
+      <column caption='task  None of these activities are an important part of my role at work' datatype='string' name='[task_ None of these activities are an important part of my role at work]' role='dimension' type='nominal' />
+      <column caption='task  Other' datatype='string' name='[task_ Other]' role='dimension' type='nominal' />
+      <column caption='Title' datatype='string' name='[title]' role='dimension' type='nominal' />
+      <column caption='Yearly Compensation' datatype='string' name='[yearly_compensation]' role='dimension' type='nominal' />
+      <column-instance column='[__tableau_internal_object_id__].[cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[company_size]' derivation='Attribute' name='[attr:company_size:nk]' pivot='key' type='nominal' />
+      <column-instance column='[stage_index]' derivation='Attribute' name='[attr:stage_index:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[stage_index]' derivation='Avg' name='[avg:stage_index:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[ml_used_applied]' derivation='Count' name='[cnt:ml_used_applied:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[ml_used_no]' derivation='Count' name='[cnt:ml_used_no:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[ml_used_theoretical]' derivation='Count' name='[cnt:ml_used_theoretical:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[stage_index]' derivation='Median' name='[med:stage_index:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[company_size]' derivation='None' name='[none:company_size:nk]' pivot='key' type='nominal' />
+      <column-instance column='[country]' derivation='None' name='[none:country:nk]' pivot='key' type='nominal' />
+      <column-instance column='[education_level]' derivation='None' name='[none:education_level:nk]' pivot='key' type='nominal' />
+      <column-instance column='[ml_used_applied]' derivation='None' name='[none:ml_used_applied:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[ml_used_theoretical]' derivation='None' name='[none:ml_used_theoretical:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[stage_index]' derivation='None' name='[none:stage_index:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[ml_used_applied]' derivation='Count' name='[pcdf:cnt:ml_used_applied:qk]' pivot='key' type='quantitative'>
+        <table-calc diff-options='Relative' ordering-field='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[title]' ordering-type='Field' type='PctDiff'>
+          <address>
+            <value>-1</value>
+          </address>
+        </table-calc>
+      </column-instance>
+      <column-instance column='[ml_used_applied]' derivation='Count' name='[pcto:cnt:ml_used_applied:qk:2]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Table' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[ml_used_applied]' derivation='Count' name='[pcto:cnt:ml_used_applied:qk:3]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='CellInPane' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[ml_used_applied]' derivation='Count' name='[pcto:cnt:ml_used_applied:qk:4]' pivot='key' type='quantitative'>
+        <table-calc ordering-field='' ordering-type='Field' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[ml_used_applied]' derivation='Count' name='[pcto:cnt:ml_used_applied:qk:5]' pivot='key' type='quantitative'>
+        <table-calc ordering-field='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[title]' ordering-type='Field' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[ml_used_applied]' derivation='Count' name='[pcto:cnt:ml_used_applied:qk:6]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Rows' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[ml_used_applied]' derivation='Count' name='[pcto:cnt:ml_used_applied:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Columns' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[ml_used_theoretical]' derivation='Count' name='[pcto:cnt:ml_used_theoretical:qk:2]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Rows' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[ml_used_theoretical]' derivation='Count' name='[pcto:cnt:ml_used_theoretical:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Columns' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[stage_index]' derivation='Stdev' name='[std:stage_index:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[stage_index]' derivation='Sum' name='[sum:stage_index:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[stage_index]' derivation='Var' name='[var:stage_index:qk]' pivot='key' type='quantitative' />
+      <drill-paths>
+        <drill-path name='country, task_ Do research that advances the state of the art of machine learning'>
+          <field>[country]</field>
+          <field>[task_ Do research that advances the state of the art of machine learning]</field>
+        </drill-path>
+      </drill-paths>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' rowDisplayCount='100' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:country:nk]' palette='blue_10_0' type='palette'>
+            <map to='#2a5783'>
+              <bucket>&quot;Zimbabwe&quot;</bucket>
+            </map>
+            <map to='#2c5985'>
+              <bucket>&quot;Viet Nam&quot;</bucket>
+            </map>
+            <map to='#2e5b88'>
+              <bucket>&quot;United States of America&quot;</bucket>
+            </map>
+            <map to='#315e8a'>
+              <bucket>&quot;United Kingdom of Great Britain and Northern Ireland&quot;</bucket>
+            </map>
+            <map to='#33608d'>
+              <bucket>&quot;United Arab Emirates&quot;</bucket>
+            </map>
+            <map to='#35628f'>
+              <bucket>&quot;Ukraine&quot;</bucket>
+            </map>
+            <map to='#386592'>
+              <bucket>&quot;Turkey&quot;</bucket>
+            </map>
+            <map to='#3a6794'>
+              <bucket>&quot;Tunisia&quot;</bucket>
+            </map>
+            <map to='#3c6996'>
+              <bucket>&quot;Thailand&quot;</bucket>
+            </map>
+            <map to='#3e6b99'>
+              <bucket>&quot;Taiwan&quot;</bucket>
+            </map>
+            <map to='#406d9b'>
+              <bucket>&quot;Sri Lanka&quot;</bucket>
+            </map>
+            <map to='#42709e'>
+              <bucket>&quot;Spain&quot;</bucket>
+            </map>
+            <map to='#4372a0'>
+              <bucket>&quot;South Korea&quot;</bucket>
+            </map>
+            <map to='#4574a2'>
+              <bucket>&quot;South Africa&quot;</bucket>
+            </map>
+            <map to='#4777a5'>
+              <bucket>&quot;Singapore&quot;</bucket>
+            </map>
+            <map to='#4979a7'>
+              <bucket>&quot;Saudi Arabia&quot;</bucket>
+            </map>
+            <map to='#4b7ba9'>
+              <bucket>&quot;Russia&quot;</bucket>
+            </map>
+            <map to='#4d7eac'>
+              <bucket>&quot;Romania&quot;</bucket>
+            </map>
+            <map to='#4f80ae'>
+              <bucket>&quot;Portugal&quot;</bucket>
+            </map>
+            <map to='#5182b0'>
+              <bucket>&quot;Poland&quot;</bucket>
+            </map>
+            <map to='#5485b2'>
+              <bucket>&quot;Philippines&quot;</bucket>
+            </map>
+            <map to='#5687b4'>
+              <bucket>&quot;Peru&quot;</bucket>
+            </map>
+            <map to='#598ab6'>
+              <bucket>&quot;Pakistan&quot;</bucket>
+            </map>
+            <map to='#5b8cb8'>
+              <bucket>&quot;Nigeria&quot;</bucket>
+            </map>
+            <map to='#5e8fba'>
+              <bucket>&quot;Netherlands&quot;</bucket>
+            </map>
+            <map to='#6091bc'>
+              <bucket>&quot;Nepal&quot;</bucket>
+            </map>
+            <map to='#6394be'>
+              <bucket>&quot;Morocco&quot;</bucket>
+            </map>
+            <map to='#6596c0'>
+              <bucket>&quot;Mexico&quot;</bucket>
+            </map>
+            <map to='#6899c2'>
+              <bucket>&quot;Malaysia&quot;</bucket>
+            </map>
+            <map to='#6a9bc4'>
+              <bucket>&quot;Kenya&quot;</bucket>
+            </map>
+            <map to='#6d9ec6'>
+              <bucket>&quot;Japan&quot;</bucket>
+            </map>
+            <map to='#6fa0c8'>
+              <bucket>&quot;Italy&quot;</bucket>
+            </map>
+            <map to='#72a3ca'>
+              <bucket>&quot;Israel&quot;</bucket>
+            </map>
+            <map to='#75a6cc'>
+              <bucket>&quot;Ireland&quot;</bucket>
+            </map>
+            <map to='#77a8ce'>
+              <bucket>&quot;Iran, Islamic Republic of...&quot;</bucket>
+            </map>
+            <map to='#7aaad0'>
+              <bucket>&quot;Indonesia&quot;</bucket>
+            </map>
+            <map to='#7cadd2'>
+              <bucket>&quot;India&quot;</bucket>
+            </map>
+            <map to='#7fafd4'>
+              <bucket>&quot;Hong Kong (S.A.R.)&quot;</bucket>
+            </map>
+            <map to='#81b1d6'>
+              <bucket>&quot;Ghana&quot;</bucket>
+            </map>
+            <map to='#84b4d7'>
+              <bucket>&quot;Germany&quot;</bucket>
+            </map>
+            <map to='#87b7d9'>
+              <bucket>&quot;France&quot;</bucket>
+            </map>
+            <map to='#8ab9db'>
+              <bucket>&quot;Ethiopia&quot;</bucket>
+            </map>
+            <map to='#8dbcdd'>
+              <bucket>&quot;Egypt&quot;</bucket>
+            </map>
+            <map to='#90bfdf'>
+              <bucket>&quot;Ecuador&quot;</bucket>
+            </map>
+            <map to='#94c2e1'>
+              <bucket>&quot;Czech Republic&quot;</bucket>
+            </map>
+            <map to='#97c4e2'>
+              <bucket>&quot;Colombia&quot;</bucket>
+            </map>
+            <map to='#9ac7e4'>
+              <bucket>&quot;China&quot;</bucket>
+            </map>
+            <map to='#9dc9e5'>
+              <bucket>&quot;Chile&quot;</bucket>
+            </map>
+            <map to='#a1cce7'>
+              <bucket>&quot;Canada&quot;</bucket>
+            </map>
+            <map to='#a4cee9'>
+              <bucket>&quot;Cameroon&quot;</bucket>
+            </map>
+            <map to='#a7d1ea'>
+              <bucket>&quot;Brazil&quot;</bucket>
+            </map>
+            <map to='#abd3eb'>
+              <bucket>&quot;Belgium&quot;</bucket>
+            </map>
+            <map to='#aed5ed'>
+              <bucket>&quot;Bangladesh&quot;</bucket>
+            </map>
+            <map to='#b2d8ee'>
+              <bucket>&quot;Australia&quot;</bucket>
+            </map>
+            <map to='#b5daef'>
+              <bucket>&quot;Argentina&quot;</bucket>
+            </map>
+            <map to='#b9ddf1'>
+              <bucket>&quot;Algeria&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[attr:company_size:nk]' palette='color_blind_10_0' type='palette'>
+            <map to='#1170aa'>
+              <bucket>%many-values%</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#57606c'>
+              <bucket>&quot;250-999 employees&quot;</bucket>
+            </map>
+            <map to='#5fa2ce'>
+              <bucket>&quot;1000-9,999 employees&quot;</bucket>
+            </map>
+            <map to='#a3acb9'>
+              <bucket>&quot;50-249 employees&quot;</bucket>
+            </map>
+            <map to='#c8d0d9'>
+              <bucket>&quot;10,000 or more employees&quot;</bucket>
+            </map>
+            <map to='#ffbc79'>
+              <bucket>&quot;0-49 employees&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:company_size:nk]' palette='traffic_light_10_0' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#6394be'>
+              <bucket>&quot;50-249 employees&quot;</bucket>
+            </map>
+            <map to='#b882a6'>
+              <bucket>&quot;250-999 employees&quot;</bucket>
+            </map>
+            <map to='#e96b20'>
+              <bucket>&quot;1000-9,999 employees&quot;</bucket>
+            </map>
+            <map to='#f05c4d'>
+              <bucket>&quot;10,000 or more employees&quot;</bucket>
+            </map>
+            <map to='#f0bd27'>
+              <bucket>&quot;0-49 employees&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:education_level:nk]' palette='color_blind_10_0' type='palette'>
+            <map to='#1170aa'>
+              <bucket>&quot;Doctoral degree&quot;</bucket>
+            </map>
+            <map to='#57606c'>
+              <bucket>&quot;No formal education past high school&quot;</bucket>
+            </map>
+            <map to='#5fa2ce'>
+              <bucket>&quot;Master’s degree&quot;</bucket>
+            </map>
+            <map to='#7eaed3'>
+              <bucket>&quot;I prefer not to answer&quot;</bucket>
+            </map>
+            <map to='#a3cce9'>
+              <bucket>&quot;Bachelor’s degree&quot;</bucket>
+            </map>
+            <map to='#c8d0d9'>
+              <bucket>&quot;Some college/university study without earning a bachelor’s degree&quot;</bucket>
+            </map>
+            <map to='#ffbc79'>
+              <bucket>&quot;Professional doctorate&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[__tableau_internal_object_id__].[cnt:cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[cnt:ml_used_theoretical:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[pcto:cnt:ml_used_theoretical:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[cnt:ml_used_no:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[cnt:ml_used_applied:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:ml_used_applied:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[pcdf:cnt:ml_used_applied:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[pcto:cnt:ml_used_applied:qk:2]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[pcto:cnt:ml_used_applied:qk:3]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[pcto:cnt:ml_used_applied:qk:4]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[pcto:cnt:ml_used_applied:qk:5]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[pcto:cnt:ml_used_applied:qk:6]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[pcto:cnt:ml_used_applied:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[attr:stage_index:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[avg:stage_index:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[med:stage_index:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:ml_used_theoretical:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:stage_index:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[pcto:cnt:ml_used_theoretical:qk:2]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[std:stage_index:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[sum:stage_index:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[var:stage_index:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United Kingdom&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='cleaned_kaggle2022.csv' id='cleaned_kaggle2022.csv_8E955450A8E84A21AB6632B46F6E05FA'>
+            <properties context=''>
+              <relation connection='textscan.1een3lp1nyl65716ix7uq1r7ngw6' name='cleaned_kaggle2022.csv' table='[cleaned_kaggle2022#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+                  <column datatype='string' name='age' ordinal='0' />
+                  <column datatype='string' name='gender' ordinal='1' />
+                  <column datatype='string' name='country' ordinal='2' />
+                  <column datatype='string' name='education_level' ordinal='3' />
+                  <column datatype='string' name='published' ordinal='4' />
+                  <column datatype='string' name='ml_used_theoretical' ordinal='5' />
+                  <column datatype='string' name='ml_used_applied' ordinal='6' />
+                  <column datatype='string' name='ml_used_no' ordinal='7' />
+                  <column datatype='string' name='code_exp' ordinal='8' />
+                  <column datatype='string' name='program_lang_Python' ordinal='9' />
+                  <column datatype='string' name='program_lang_R' ordinal='10' />
+                  <column datatype='string' name='program_lang_SQL' ordinal='11' />
+                  <column datatype='string' name='program_lang_C' ordinal='12' />
+                  <column datatype='string' name='program_lang_C#' ordinal='13' />
+                  <column datatype='string' name='program_lang_C++' ordinal='14' />
+                  <column datatype='string' name='program_lang_Java' ordinal='15' />
+                  <column datatype='string' name='program_lang_Javascript' ordinal='16' />
+                  <column datatype='string' name='program_lang_Bash' ordinal='17' />
+                  <column datatype='string' name='program_lang_PHP' ordinal='18' />
+                  <column datatype='string' name='program_lang_MATLAB' ordinal='19' />
+                  <column datatype='string' name='program_lang_Julia' ordinal='20' />
+                  <column datatype='string' name='program_lang_Go' ordinal='21' />
+                  <column datatype='string' name='program_lang_None' ordinal='22' />
+                  <column datatype='string' name='program_lang_Other' ordinal='23' />
+                  <column datatype='string' name='ml_exp' ordinal='24' />
+                  <column datatype='string' name='ml_algo_Linear or Logistic Regression' ordinal='25' />
+                  <column datatype='string' name='ml_algo_Decision Trees or Random Forests' ordinal='26' />
+                  <column datatype='string' name='ml_algo_Gradient Boosting Machines (xgboost, lightgbm, etc)' ordinal='27' />
+                  <column datatype='string' name='ml_algo_Bayesian Approaches' ordinal='28' />
+                  <column datatype='string' name='ml_algo_Evolutionary Approaches' ordinal='29' />
+                  <column datatype='string' name='ml_algo_Dense Neural Networks (MLPs, etc)' ordinal='30' />
+                  <column datatype='string' name='ml_algo_Convolutional Neural Networks' ordinal='31' />
+                  <column datatype='string' name='ml_algo_Generative Adversarial Networks' ordinal='32' />
+                  <column datatype='string' name='ml_algo_Recurrent Neural Networks' ordinal='33' />
+                  <column datatype='string' name='ml_algo_Transformer Networks (BERT, gpt, etc)' ordinal='34' />
+                  <column datatype='string' name='ml_algo_Autoencoder Networks (DAE, VAE, etc)' ordinal='35' />
+                  <column datatype='string' name='ml_algo_Graph Neural Networks' ordinal='36' />
+                  <column datatype='string' name='ml_algo_None' ordinal='37' />
+                  <column datatype='string' name='ml_algo_Other' ordinal='38' />
+                  <column datatype='string' name='title' ordinal='39' />
+                  <column datatype='string' name='industry' ordinal='40' />
+                  <column datatype='string' name='company_size' ordinal='41' />
+                  <column datatype='string' name='data_team_size' ordinal='42' />
+                  <column datatype='string' name='company_stage' ordinal='43' />
+                  <column datatype='string' name='task_ Analyze and understand data to influence product or business decisions' ordinal='44' />
+                  <column datatype='string' name='task_ Build and/or run the data infrastructure that my business uses for storing, analyzing, and operationalizing data' ordinal='45' />
+                  <column datatype='string' name='task_ Build prototypes to explore applying machine learning to new areas' ordinal='46' />
+                  <column datatype='string' name='task_ Build and/or run a machine learning service that operationally improves my product or workflows' ordinal='47' />
+                  <column datatype='string' name='task_ Experimentation and iteration to improve existing ML models' ordinal='48' />
+                  <column datatype='string' name='task_ Do research that advances the state of the art of machine learning' ordinal='49' />
+                  <column datatype='string' name='task_ None of these activities are an important part of my role at work' ordinal='50' />
+                  <column datatype='string' name='task_ Other' ordinal='51' />
+                  <column datatype='string' name='yearly_compensation' ordinal='52' />
+                  <column datatype='string' name='cloud_platform_AmazonWebServices(AWS)' ordinal='53' />
+                  <column datatype='string' name='cloud_platform_MicrosoftAzure' ordinal='54' />
+                  <column datatype='string' name='cloud_platform_GoogleCloudPlatform(GCP)' ordinal='55' />
+                  <column datatype='string' name='cloud_platform_IBMCloud/RedHat' ordinal='56' />
+                  <column datatype='string' name='cloud_platform_OracleCloud' ordinal='57' />
+                  <column datatype='string' name='cloud_platform_SAPCloud' ordinal='58' />
+                  <column datatype='string' name='cloud_platform_VMwareCloud' ordinal='59' />
+                  <column datatype='string' name='cloud_platform_AlibabaCloud' ordinal='60' />
+                  <column datatype='string' name='cloud_platform_TencentCloud' ordinal='61' />
+                  <column datatype='string' name='cloud_platform_HuaweiCloud' ordinal='62' />
+                  <column datatype='string' name='cloud_platform_None' ordinal='63' />
+                  <column datatype='string' name='cloud_platform_Other' ordinal='64' />
+                  <column datatype='real' name='stage_index' ordinal='65' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Edu level'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#b5172d' fontname='Helvetica'>Education levels of Data Professionals</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cleaned_kaggle2022' name='federated.0xgs425076ib6y1bwu1ve1y0cxo5' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0xgs425076ib6y1bwu1ve1y0cxo5'>
+            <column caption='Education Level' datatype='string' name='[education_level]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Some college/university study without earning a bachelor’s degree&quot;' value='Some college/university study' />
+              </aliases>
+            </column>
+            <column-instance column='[education_level]' derivation='None' name='[none:education_level:nk]' pivot='key' type='nominal' />
+            <column-instance column='[title]' derivation='None' name='[none:title:nk]' pivot='key' type='nominal' />
+            <column-instance column='[education_level]' derivation='Count' name='[pcto:cnt:education_level:qk:3]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='CellInPane' type='PctTotal' />
+            </column-instance>
+            <column caption='Title' datatype='string' name='[title]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:education_level:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:education_level:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:education_level:nk]' member='&quot;I prefer not to answer&quot;' />
+                <groupfilter function='member' level='[none:education_level:nk]' member='%null%' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:education_level:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;No formal education past high school&quot;</bucket>
+              <bucket>&quot;Some college/university study without earning a bachelor’s degree&quot;</bucket>
+              <bucket>&quot;Bachelor’s degree&quot;</bucket>
+              <bucket>&quot;Master’s degree&quot;</bucket>
+              <bucket>&quot;Doctoral degree&quot;</bucket>
+              <bucket>&quot;Professional doctorate&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:education_level:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[pcto:cnt:education_level:qk:3]' scope='cols' value='% Education Level' />
+            <format attr='display' class='0' field='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[pcto:cnt:education_level:qk:3]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='font-family' field='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[pcto:cnt:education_level:qk:3]' value='Helvetica' />
+            <format attr='font-family' field='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:title:nk]' value='Helvetica' />
+            <format attr='text-align' field='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:title:nk]' value='right' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-family' field='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[pcto:cnt:education_level:qk:3]' value='Helvetica' />
+            <format attr='font-family' field='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:title:nk]' value='Helvetica' />
+            <format attr='font-weight' field='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:title:nk]' value='bold' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='in-tooltip' field='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:education_level:nk]' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='legend'>
+            <format attr='font-family' value='Helvetica' />
+          </style-rule>
+          <style-rule element='legend-title'>
+            <format attr='font-family' value='Helvetica' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:education_level:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='user' />
+                <format attr='font-family' value='Helvetica' />
+                <format attr='font-weight' value='bold' />
+                <format attr='color' value='#f5f5f5' />
+                <format attr='font-size' value='9' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:title:nk]</rows>
+        <cols>[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[pcto:cnt:education_level:qk:3]</cols>
+      </table>
+      <simple-id uuid='{9C1D9C5F-C151-4D1F-8ECA-DA14076AB0E2}' />
+    </worksheet>
+    <worksheet name='ML countries'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#b5172d' fontname='Helvetica'>Machine Learning (ML) adoption stage by company in different countries - 2022</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cleaned_kaggle2022' name='federated.0xgs425076ib6y1bwu1ve1y0cxo5' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0xgs425076ib6y1bwu1ve1y0cxo5'>
+            <column caption='Age' datatype='string' name='[age]' role='dimension' type='nominal' />
+            <column-instance column='[stage_index]' derivation='Avg' name='[avg:stage_index:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[age]' derivation='Count' name='[cnt:age:qk]' pivot='key' type='quantitative' />
+            <column caption='Country' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column-instance column='[country]' derivation='None' name='[none:country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[stage_index]' derivation='None' name='[none:stage_index:qk]' pivot='key' type='quantitative' />
+            <column datatype='real' name='[stage_index]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[Latitude (generated)]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[Longitude (generated)]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:stage_index:qk]' included-values='in-range'>
+            <min>0.0</min>
+            <max>4.0</max>
+          </filter>
+          <slices>
+            <column>[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:stage_index:qk]</column>
+            <column>[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[Latitude (generated)]</column>
+            <column>[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[Longitude (generated)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[Longitude (generated)]' field-type='quantitative' max='20581738.956208713' min='-18091920.998208031' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[Latitude (generated)]' field-type='quantitative' max='10597829.810887383' min='-5108895.6451503886' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-family' field='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:country:nk]' value='Helvetica' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[avg:stage_index:qk]' palette='red_blue_diverging_10_0' symmetric='false' type='interpolated' />
+            <encoding attr='size' field='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[cnt:age:qk]' field-type='quantitative' max='2064' max-size='1' min-size='0' type='rangesize' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='omit-on-special' field='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:country:nk]' value='false' />
+            <format attr='break-on-special' field='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:country:nk]' value='false' />
+            <format attr='show-null-value-warning' field='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:country:nk]' value='false' />
+          </style-rule>
+          <style-rule element='legend-title'>
+            <format attr='font-family' value='Helvetica' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='size' field='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[cnt:age:qk]' value='Count of Professionals' />
+            <format attr='color' field='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[avg:stage_index:qk]' value='Average ML stage score'>
+              <formatted-text>
+                <run>Average ML stage score</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='Coastline' value='true' />
+            <format attr='enabled' id='light-admin-0-boundaries-bg' value='true' />
+            <format attr='enabled' id='light-admin-0-boundaries' value='true' />
+            <format attr='enabled' id='light-admin-0-boundaries-dispute' value='true' />
+            <format attr='enabled' id='admin-0-boundaries-bg-sub' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-supress-bg' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-sm-parents-bg' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-md-parents-bg' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-lg-parents-bg' value='false' />
+            <format attr='enabled' id='admin-0-boundaries-dispute-sub' value='false' />
+            <format attr='enabled' id='admin-0-boundaries-sub' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-supress' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-sm-parents' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-md-parents' value='false' />
+            <format attr='enabled' id='admin-1-boundaries-lg-parents' value='false' />
+            <format attr='enabled' id='admin1-water-lines-usa-tableau' value='false' />
+            <format attr='enabled' id='9-dash-line-casing' value='false' />
+            <format attr='enabled' id='9-dash-line' value='false' />
+            <format attr='enabled' id='admin-1-label-9th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-8th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-7th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-6th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-5th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-4th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-3rd-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-2nd-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-1st-tier' value='false' />
+            <format attr='enabled' id='us-admin-1-label-abbr-3rd-tier' value='false' />
+            <format attr='enabled' id='us-admin-1-label-abbr-2nd-tier' value='false' />
+            <format attr='enabled' id='us-admin-1-label-abbr-1st-tier' value='false' />
+            <format attr='enabled' id='light-admin-0-label-5th-tier' value='true' />
+            <format attr='enabled' id='light-admin-0-label-4th-tier' value='true' />
+            <format attr='enabled' id='light-admin-0-label-3rd-tier' value='true' />
+            <format attr='enabled' id='light-admin-0-label-2nd-tier' value='true' />
+            <format attr='enabled' id='light-admin-0-label-1st-tier' value='true' />
+            <format attr='enabled' id='b01002_001e' value='false' />
+            <format attr='enabled' id='b01002_002e' value='false' />
+            <format attr='enabled' id='b01002_003e' value='false' />
+            <format attr='enabled' id='dp02_0001e' value='false' />
+            <format attr='enabled' id='dp02_0015e' value='false' />
+            <format attr='enabled' id='dp03_0027e_plus_dp03_0029e' value='false' />
+            <format attr='enabled' id='dp03_0028e' value='false' />
+            <format attr='enabled' id='dp03_0030e_plus_dp03_0031e' value='false' />
+            <format attr='enabled' id='dp03_0062e' value='false' />
+            <format attr='enabled' id='dp03_0088e' value='false' />
+            <format attr='enabled' id='dp04_0001e' value='false' />
+            <format attr='enabled' id='dp04_0046e' value='false' />
+            <format attr='enabled' id='dp04_0047e' value='false' />
+            <format attr='enabled' id='dp04_0089e' value='false' />
+            <format attr='enabled' id='dp05_0001e' value='false' />
+            <format attr='enabled' id='dp05_0002e_div_dp05_0003e' value='false' />
+            <format attr='enabled' id='dp05_0032e' value='false' />
+            <format attr='enabled' id='dp05_0033e' value='false' />
+            <format attr='enabled' id='dp05_0034e' value='false' />
+            <format attr='enabled' id='dp05_0039e' value='false' />
+            <format attr='enabled' id='dp05_0047e' value='false' />
+            <format attr='enabled' id='dp05_0053e' value='false' />
+            <format attr='enabled' id='dp05_0066e' value='false' />
+            <format attr='enabled' id='dp05_0077e' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.30000001192092896' />
+            <format attr='map-style' value='light' />
+          </style-rule>
+          <style-rule element='map-data-layer'>
+            <format attr='palette' value='tableau-map-blue-green-light' />
+            <format attr='geo-area-type' value='State' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[avg:stage_index:qk]' />
+              <size column='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[cnt:age:qk]' />
+              <text column='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:country:nk]' />
+              <lod column='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:country:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='3.5008218288421631' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='has-stroke' value='false' />
+                <format attr='mark-transparency' value='211' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[Latitude (generated)]</rows>
+        <cols>[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{FA6C90DF-08C5-4024-A7DB-981E180414B9}' />
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cleaned_kaggle2022' name='federated.0xgs425076ib6y1bwu1ve1y0cxo5' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0xgs425076ib6y1bwu1ve1y0cxo5'>
+            <column-instance column='[stage_index]' derivation='Avg' name='[avg:stage_index:qk]' pivot='key' type='quantitative' />
+            <column caption='Company Size' datatype='string' name='[company_size]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;0-49 employees&quot;' value='0-49' />
+                <alias key='&quot;10,000 or more employees&quot;' value='&gt; 10,000' />
+                <alias key='&quot;1000-9,999 employees&quot;' value='1000-9,999' />
+                <alias key='&quot;250-999 employees&quot;' value='250-999' />
+                <alias key='&quot;50-249 employees&quot;' value='50-249' />
+              </aliases>
+            </column>
+            <column caption='Industry' datatype='string' name='[industry]' role='dimension' type='nominal' />
+            <column-instance column='[company_size]' derivation='None' name='[none:company_size:nk]' pivot='key' type='nominal' />
+            <column-instance column='[industry]' derivation='None' name='[none:industry:nk]' pivot='key' type='nominal' />
+            <column-instance column='[stage_index]' derivation='None' name='[none:stage_index:qk]' pivot='key' type='quantitative' />
+            <column datatype='real' name='[stage_index]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:stage_index:qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:stage_index:qk]</column>
+          </slices>
+          <aggregation value='false' />
+        </view>
+        <style>
+          <style-rule element='refboxplot'>
+            <format attr='boxplot-style' id='refline0' value='classic' />
+            <format attr='fill-color' id='refline0' value='#f0f0f000' />
+            <format attr='palette' id='refline0' value='bp_gray60' />
+            <format attr='opacity' id='refline0' value='167' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:company_size:nk]' />
+            </encodings>
+            <reference-line axis-column='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[avg:stage_index:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[avg:stage_index:qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[avg:stage_index:qk]</rows>
+        <cols>[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:industry:nk]</cols>
+      </table>
+      <simple-id uuid='{6C4B504C-3C7B-4CCE-BBCF-48CCF08635E7}' />
+    </worksheet>
+    <worksheet name='Sheet 6'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cleaned_kaggle2022' name='federated.0xgs425076ib6y1bwu1ve1y0cxo5' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0xgs425076ib6y1bwu1ve1y0cxo5'>
+            <column-instance column='[ml_used_applied]' derivation='Count' name='[cnt:ml_used_applied:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ml_used_no]' derivation='Count' name='[cnt:ml_used_no:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ml_used_theoretical]' derivation='Count' name='[cnt:ml_used_theoretical:qk]' pivot='key' type='quantitative' />
+            <column caption='Ml Used Applied' datatype='string' name='[ml_used_applied]' role='dimension' type='nominal' />
+            <column caption='Ml Used No' datatype='string' name='[ml_used_no]' role='dimension' type='nominal' />
+            <column caption='Ml Used Theoretical' datatype='string' name='[ml_used_theoretical]' role='dimension' type='nominal' />
+            <column-instance column='[title]' derivation='None' name='[none:title:nk]' pivot='key' type='nominal' />
+            <column caption='Title' datatype='string' name='[title]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[cnt:ml_used_applied:qk]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[cnt:ml_used_no:qk]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[cnt:ml_used_theoretical:qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[cnt:ml_used_applied:qk]</column>
+            <column>[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[cnt:ml_used_no:qk]</column>
+            <column>[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[cnt:ml_used_theoretical:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.60000002384185791' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[cnt:ml_used_applied:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.60000002384185791' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[cnt:ml_used_no:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.60000002384185791' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[cnt:ml_used_theoretical:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.60000002384185791' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:title:nk]</rows>
+        <cols>([federated.0xgs425076ib6y1bwu1ve1y0cxo5].[cnt:ml_used_applied:qk] + ([federated.0xgs425076ib6y1bwu1ve1y0cxo5].[cnt:ml_used_no:qk] + [federated.0xgs425076ib6y1bwu1ve1y0cxo5].[cnt:ml_used_theoretical:qk]))</cols>
+      </table>
+      <simple-id uuid='{4BCEE322-4123-4017-9B56-3EECA9034D89}' />
+    </worksheet>
+    <worksheet name='industry'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#b5172d' fontname='Helvetica' fontsize='14'>ML adoption stage by company size in different industries</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cleaned_kaggle2022' name='federated.0xgs425076ib6y1bwu1ve1y0cxo5' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0xgs425076ib6y1bwu1ve1y0cxo5'>
+            <column-instance column='[stage_index]' derivation='Avg' name='[avg:stage_index:qk]' pivot='key' type='quantitative' />
+            <column caption='Company Size' datatype='string' name='[company_size]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;0-49 employees&quot;' value='0-49' />
+                <alias key='&quot;10,000 or more employees&quot;' value='&gt; 10,000' />
+                <alias key='&quot;1000-9,999 employees&quot;' value='1000-9,999' />
+                <alias key='&quot;250-999 employees&quot;' value='250-999' />
+                <alias key='&quot;50-249 employees&quot;' value='50-249' />
+              </aliases>
+            </column>
+            <column caption='Industry' datatype='string' name='[industry]' role='dimension' type='nominal' />
+            <column-instance column='[company_size]' derivation='None' name='[none:company_size:nk]' pivot='key' type='nominal' />
+            <column-instance column='[industry]' derivation='None' name='[none:industry:nk]' pivot='key' type='nominal' />
+            <column datatype='real' name='[stage_index]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:company_size:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:company_size:nk]' />
+              <groupfilter function='member' level='[none:company_size:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:company_size:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;0-49 employees&quot;</bucket>
+              <bucket>&quot;50-249 employees&quot;</bucket>
+              <bucket>&quot;250-999 employees&quot;</bucket>
+              <bucket>&quot;1000-9,999 employees&quot;</bucket>
+              <bucket>&quot;10,000 or more employees&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:company_size:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[avg:stage_index:qk]' scope='rows' value='Average adoption score' />
+            <encoding attr='space' class='0' field='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[avg:stage_index:qk]' field-type='quantitative' range-type='uniform' scope='rows' type='space' />
+            <format attr='display' class='0' field='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[avg:stage_index:qk]' scope='rows' value='true' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='font-family' field='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:industry:nk]' value='Helvetica' />
+            <format attr='text-align' field='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:industry:nk]' value='center' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-family' field='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:industry:nk]' value='Helvetica' />
+            <format attr='text-orientation' field='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:industry:nk]' value='-90' />
+            <format attr='display' field='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:industry:nk]' value='true' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[avg:stage_index:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+            <encoding attr='size' field='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:company_size:nk]' field-type='nominal' max-size='1' min-size='0.180064' type='catsize' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='refboxplot'>
+            <format attr='whisker-end' id='refline0' value='large' />
+            <format attr='whisker-stroke-size' id='refline0' value='1' />
+            <format attr='whisker-stroke-color' id='refline0' value='#75a1c7' />
+            <format attr='stroke-color' id='refline0' value='#4e79a7' />
+            <format attr='stroke-size' id='refline0' value='1' />
+            <format attr='boxplot-style' id='refline0' value='glass' />
+            <format attr='fill-color' id='refline0' value='#00000000' />
+            <format attr='palette' id='refline0' value='bp_blue' />
+            <format attr='opacity' id='refline0' value='255' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:company_size:nk]' value='Company Size&#10;(Employees)'>
+              <formatted-text>
+                <run>Company Size&#10;(Employees)</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:company_size:nk]' />
+            </encodings>
+            <reference-line axis-column='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[avg:stage_index:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[avg:stage_index:qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.36182320117950439' />
+                <format attr='mark-transparency' value='255' />
+                <format attr='has-stroke' value='false' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[avg:stage_index:qk]</rows>
+        <cols>[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:industry:nk]</cols>
+      </table>
+      <simple-id uuid='{4BFFF285-5C03-40E8-A3B1-51C3D76F4F95}' />
+    </worksheet>
+    <worksheet name='score'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#b5172d' fontname='Helvetica' fontsize='9'>ML stage explanation</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cleaned_kaggle2022' name='federated.0xgs425076ib6y1bwu1ve1y0cxo5' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0xgs425076ib6y1bwu1ve1y0cxo5'>
+            <column-instance column='[stage_index]' derivation='Avg' name='[avg:stage_index:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[stage_index]' derivation='Avg' name='[avg:stage_index:qk]' pivot='key' type='quantitative' />
+            <column caption='ML Stage' datatype='string' name='[company_stage]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;No (we do not use ML methods)&quot;' value='No' />
+                <alias key='&quot;We are exploring ML methods (and may one day put a model into production)&quot;' value='Exploring' />
+                <alias key='&quot;We have well established ML methods (i.e., models in production for more than 2 years)&quot;' value='Establishing &gt; 2 years' />
+                <alias key='&quot;We recently started using ML methods (i.e., models in production for less than 2 years)&quot;' value='Adopting &lt; 2 years' />
+                <alias key='&quot;We use ML methods for generating insights (but do not put working models into production)&quot;' value='Generating' />
+              </aliases>
+            </column>
+            <column-instance column='[company_stage]' derivation='None' name='[none:company_stage:nk]' pivot='key' type='nominal' />
+            <column datatype='real' name='[stage_index]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:company_stage:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:company_stage:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:company_stage:nk]' member='%null%' />
+                <groupfilter function='member' level='[none:company_stage:nk]' member='&quot;I do not know&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:company_stage:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;No (we do not use ML methods)&quot;</bucket>
+              <bucket>&quot;We are exploring ML methods (and may one day put a model into production)&quot;</bucket>
+              <bucket>&quot;We use ML methods for generating insights (but do not put working models into production)&quot;</bucket>
+              <bucket>&quot;We recently started using ML methods (i.e., models in production for less than 2 years)&quot;</bucket>
+              <bucket>&quot;We have well established ML methods (i.e., models in production for more than 2 years)&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:company_stage:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='24' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:company_stage:nk]' value='136' />
+          </style-rule>
+          <style-rule element='field-labels'>
+            <format attr='font-family' value='Helvetica' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[avg:stage_index:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+            <encoding attr='color' field='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[avg:stage_index:qk]' palette='red_blue_diverging_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[avg:stage_index:qk]' />
+              <text column='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[avg:stage_index:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='has-stroke' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:company_stage:nk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{D1CF33BB-A621-4DAD-BA8C-BF3B5E9AEF93}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='5' type-v2='layout-basic' w='82400' x='800' y='1000'>
+              <zone h='46375' id='3' name='ML countries' w='82400' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='51625' id='13' name='industry' w='82400' x='800' y='47375'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98000' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='16000' x='83200' y='1000' />
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='21250' id='10' name='score' w='17100' x='83200' y='28625'>
+          <layout-cache fixed-size-h='183' fixed-size-w='142' type-h='fixed' type-w='fixed' />
+        </zone>
+        <zone h='10125' id='8' name='ML countries' pane-specification-id='0' param='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[avg:stage_index:qk]' type-v2='color' w='14000' x='83600' y='19000' />
+        <zone h='14250' id='9' name='ML countries' pane-specification-id='0' param='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[cnt:age:qk]' type-v2='size' w='14000' x='84000' y='2500' />
+        <zone h='17625' id='14' name='industry' pane-specification-id='1' param='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:company_size:nk]' type-v2='color' w='14900' x='84500' y='66000' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1000' minheight='1000' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='44' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='43' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='46375' id='3' is-fixed='true' name='ML countries' w='82400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10125' id='8' name='ML countries' pane-specification-id='0' param='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[avg:stage_index:qk]' type-v2='color' w='14000' x='83600' y='19000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='14250' id='9' name='ML countries' pane-specification-id='0' param='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[cnt:age:qk]' type-v2='size' w='14000' x='84000' y='2500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='170' h='21250' id='10' is-fixed='true' name='score' w='17100' x='83200' y='28625'>
+                  <layout-cache fixed-size-h='183' fixed-size-w='142' type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='51625' id='13' is-fixed='true' name='industry' w='82400' x='800' y='47375'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='17625' id='14' name='industry' pane-specification-id='1' param='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:company_size:nk]' type-v2='color' w='14900' x='84500' y='66000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{6DF09BD7-32DE-4478-A214-1C963B440F9D}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='ML countries'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[avg:stage_index:qk]' type='color' />
+            <card pane-specification-id='0' param='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[cnt:age:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A91E3D1A-8620-4BB2-99D1-21A8FFC5E810}' />
+    </window>
+    <window class='worksheet' name='score'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[avg:stage_index:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{6DBBFA20-404F-4F24-8FF5-89F4DA8E9D56}' />
+    </window>
+    <window class='worksheet' name='industry'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='38'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:company_size:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{917CA68B-DC25-4E67-B1CB-5BEFF8EE5D63}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='ML countries'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='industry'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='score' />
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{F8579EC7-7D86-427D-94CF-5BD721B80A94}' />
+    </window>
+    <window class='worksheet' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:company_size:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{CA2B4B10-C37A-4F06-9419-9FD9B7C2991D}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Edu level'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0xgs425076ib6y1bwu1ve1y0cxo5].[none:education_level:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{7854E37C-4CAA-4065-9C28-C257F6F8ED8C}' />
+    </window>
+    <window class='worksheet' name='Sheet 6'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{7B3B2467-F8CA-4A4E-B423-FA54314459A0}' />
+    </window>
+  </windows>
+</workbook>
