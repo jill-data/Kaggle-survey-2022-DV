@@ -1722,6 +1722,16 @@
   <mapsources>
     <mapsource name='Tableau' />
   </mapsources>
+  <actions>
+    <action caption='Highlight 1 (generated)' name='[Action1_4DDD76D55B7F47CEA5016565279726E3]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='Edu level' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Education Level' />
+        <param name='target' value='Edu level' />
+      </command>
+    </action>
+  </actions>
   <worksheets>
     <worksheet name='Edu level'>
       <layout-options>
@@ -2597,7 +2607,7 @@
       </cards>
       <simple-id uuid='{CA2B4B10-C37A-4F06-9419-9FD9B7C2991D}' />
     </window>
-    <window class='worksheet' maximized='true' name='Edu level'>
+    <window class='worksheet' name='Edu level'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -2628,7 +2638,7 @@
       </viewpoint>
       <simple-id uuid='{7854E37C-4CAA-4065-9C28-C257F6F8ED8C}' />
     </window>
-    <window class='worksheet' name='Sheet 6'>
+    <window class='worksheet' maximized='true' name='Sheet 6'>
       <cards>
         <edge name='left'>
           <strip size='160'>
